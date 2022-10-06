@@ -1,6 +1,8 @@
 experiment/
-data/
+^data/
+data/imdb-review.csv
 __pycache__/
 .ipynb_checkpoints/
 
 *.txt
+*.ipynb
