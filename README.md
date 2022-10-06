@@ -28,3 +28,14 @@ git checkout -b <branch_name>
 - Commit: `git commit -m "<some_message>"`:
   - `<some_message>` can be anything but showing what you have done, what are the changes, etc. should be better
 - Push to repository: `git push`
+
+## Project Structure
+```
+|---data
+|---scripts
+|---src
+|   |---app.py
+|   |---common
+|   |   |---prprocess_text.py
+|   |   |---utils.py
+```
