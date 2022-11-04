@@ -7,6 +7,8 @@ logger = logging.getLogger(__name__)
 
 SEED = 2103
 
+target_map = {"negative": 0, "positive": 1, 0: "negative", 1: "positive"}
+
 
 def read_data(filepath: str = "data/imdb-review.csv") -> Union[object, object]:
     """_summary_

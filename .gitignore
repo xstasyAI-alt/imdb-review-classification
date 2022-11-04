@@ -4,6 +4,7 @@ data/imdb-review.csv
 __pycache__/
 .ipynb_checkpoints/
 .venv/
+.idea/
 
 *.txt
 *.ipynb
