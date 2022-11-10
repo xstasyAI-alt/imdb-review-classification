@@ -11,6 +11,19 @@ git clone https://github.com/xstasyAI-alt/imdb-review-classification.git
 `
 sh scripts/download_data.sh
 `
+
+- Install packages:
+`
+pip install -r requirements.txt
+`
+
+## Run Locally
+```
+uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+```
+
+- Go to https://localhost:8000/docs.
+
 ## Miscellaneous
 - Before pushing code or create Merge Requests:
 `
@@ -39,10 +52,3 @@ git checkout -b <branch_name>
 |   |   |---prprocess_text.py
 |   |   |---utils.py
 ```
-
-## Run Locally
-```
-uvicorn app:app --host 0.0.0.0 --port 8000 --reload
-```
-
-- Go to localhost:8000/docs.
